@@ -11,7 +11,7 @@
         // ilk parametrimiz məlumatını yoludur
         // əvvəla məlumatın tipini sonra yolunu qeyd edirik
         // ikinci parametrdə isə mətnimizi daxil edirik
-		$info->set_message('error.ad', 'Adinizi daxil edin');
+		$info->set_message('error.ad', 'Adınızı daxil edin');
 		$info->info_message_run();
 	}
 
@@ -24,6 +24,6 @@ Yaranan bütün məlumat mesajlarını göstərmək üçün:
 Sadəcə verilən açara görə məlumatı göstərmək üçün:
 
     Sadəcə verilən açara görə məlumatı göstərmək üçün istifadə edin
-    print($info->only('mail'));
+    print($info->only('ad'));
 
 İstədiyiniz kimi sinifi genişlədə bilərsiniz.
