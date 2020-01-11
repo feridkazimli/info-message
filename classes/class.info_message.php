@@ -238,7 +238,7 @@ class Info_Message {
 	 * @return array  array tipində məlumatı geri döndəririk
      * @access public 
      */
-	public function first($key_name)
+	public function only($key_name)
 	{
 		$session = array();
 		/*
