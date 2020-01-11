@@ -1,6 +1,4 @@
 <?php 
-ob_start();
-session_start();
 require 'classes/class.info_message.php';
 $info = new QaraBala\Info_Message();
 if($_POST) {
