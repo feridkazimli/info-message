@@ -19,7 +19,7 @@
  * @author     Farid K <ferid.kazimli@gmail.com>
  * @license    https://choosealicense.com/licenses/gpl-3.0/ 
  * @version    1.0.0
- * @link       http://pear.php.net/package/PackageName
+ * @link       https://github.com/feridkazimli/info-message
  */
 
 namespace QaraBala;
